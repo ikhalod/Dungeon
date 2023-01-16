@@ -20,6 +20,7 @@ namespace StarterAssets
 		public float RotationSpeed = 1.0f;
 		[Tooltip("Acceleration and deceleration")]
 		public float SpeedChangeRate = 10.0f;
+		public PhysicMaterial sliperyMat;
 
 		[Space(10)]
 		[Tooltip("The height the player can jump")]
